@@ -42,3 +42,7 @@ for i in range(20):
     save(utils.make_grid(v.view(64, 1, 28, 28).data), fname = real)
     save(utils.make_grid(gibb.view(64, 1, 28, 28).data), fname = fake)
 
+
+
+
+
